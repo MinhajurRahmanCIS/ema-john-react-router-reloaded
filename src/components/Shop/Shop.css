@@ -1,0 +1,36 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 120px 104px;
+}
+.cart-container a{
+    text-decoration: none;
+}
+.btn-review-order {
+    width: 421px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    border-radius: 4px;
+    background-color: #F90;;
+    padding: 16px;
+    border: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.032px;
+}
+.btn-review-order:hover {
+    background-color: rgba(255, 153, 0, 0.692);
+}
